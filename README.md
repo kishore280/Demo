@@ -23,27 +23,19 @@ Logout Screen
    
 Getting Started
 
-    Clone the repository:
+Clone the repository:
 
-    bash
-
-git clone https://github.com/your_username/google_fit_demo.git
+    git clone https://github.com/your_username/google_fit_demo.git
 
 Navigate to the project directory:
 
-bash
-
-cd google_fit_demo
+     cd google_fit_demo
 
 Install dependencies:
 
-arduino
-
-flutter pub get
+     flutter pub get
 
 Run the app:
-
-arduino
 
     flutter run
 

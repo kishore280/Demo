@@ -25,7 +25,7 @@ Getting Started
 
 Clone the repository:
 
-    git clone https://github.com/your_username/google_fit_demo.git
+    git clone https://github.com/kishore280/Demo.git
 
 Navigate to the project directory:
 

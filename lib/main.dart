@@ -43,6 +43,7 @@ class _FitAppState extends State<FitApp> {
       _userPhotoUrl = googleSignInCurrentUser?.photoUrl ?? '';
       _isSignedIn = true;
     });
+
   }
 
   Future<void> _signOutGoogleFit() async {
@@ -53,6 +54,7 @@ class _FitAppState extends State<FitApp> {
       _userPhotoUrl = '';
       _isSignedIn = false;
     });
+    Navigator.pop(context);
   }
 
   @override
